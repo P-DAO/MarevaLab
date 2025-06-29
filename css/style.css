@@ -20,8 +20,8 @@
 #accueil a {
     border: 1px solid #0181CA;
     border-radius: 290486px;
-    color: black;
-    font-size: 0.6em;
+    color: #3c3f41;
+    font-size: 1em;
     letter-spacing: 0.2em;
     padding: 1em 2em;
     text-transform: uppercase;
@@ -33,4 +33,25 @@
 #accueil a:hover {
     background: #0181CA;
     color: white;
+}
+
+#icon {
+  font-size: 3rem; /* ajuste la taille comme tu veux : 2rem, 4rem, etc. */
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem; /* espace sous l’icône */
+  color: #0181CA; /* facultatif : couleur */
+}
+
+/* Titre partie */
+#team h2, #contact h2 {
+    color: #0181CA;
+}
+#horaires h2, #acces h2 {
+    color: #7E858C;
+}
+
+/* footer */
+.footer-blue {
+    background-color: #0181CA;
 }
