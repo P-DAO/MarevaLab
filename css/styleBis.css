@@ -25,12 +25,12 @@
     box-shadow: .0625rem .0625rem .625rem 0 rgba(0, 0, 0, .3);
 }
 
-#infocard {
+.infocard {
     padding-bottom: 1.5em;
 }
 
-#icon {
-  font-size: 3rem; /* ajuste la taille comme tu veux : 2rem, 4rem, etc. */
+.icon {
+  font-size: 5rem; /* ajuste la taille comme tu veux : 2rem, 4rem, etc. */
   display: block;
   text-align: center;
   margin-bottom: 1rem; /* espace sous l’icône */
