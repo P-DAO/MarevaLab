@@ -1,0 +1,36 @@
+/* photo section accueil */
+#accueil {
+    background-color: #263d36;
+    background-image: url("../img/logo/logo_mareva.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.2;
+    padding: 10vw 2em;
+    text-align: center;
+}
+
+#accueil img {
+    display: inline-block;
+    height: 120px;
+    vertical-align: top;
+    width: 120px;
+}
+
+#accueil a {
+    border: 1px solid #0181CA;
+    border-radius: 290486px;
+    color: black;
+    font-size: 0.6em;
+    letter-spacing: 0.2em;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none 200ms ease-out;
+    transition-property: color, background;
+}
+
+#accueil a:hover {
+    background: #0181CA;
+    color: white;
+}
