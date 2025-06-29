@@ -17,18 +17,21 @@
     width: 120px;
 }
 
+/* Card accueil */
 #card {
-    width: 31.25rem;
+    /* width: 31.25rem; */
     background-color: #fff;
     border-radius: .75rem;
     -webkit-box-shadow: .0625rem .0625rem .625rem 0 rgba(0, 0, 0, .3);
     box-shadow: .0625rem .0625rem .625rem 0 rgba(0, 0, 0, .3);
 }
 
+/* groupe de cards */ 
 .infocard {
     padding-bottom: 1.5em;
 }
 
+/* icon dans les cards */
 .icon {
   font-size: 5rem; /* ajuste la taille comme tu veux : 2rem, 4rem, etc. */
   display: block;
