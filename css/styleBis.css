@@ -26,6 +26,26 @@
     box-shadow: .0625rem .0625rem .625rem 0 rgba(0, 0, 0, .3);
 }
 
+/* bouton remonter */
+#btnTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none; /* caché par défaut */
+  width: 45px;
+  height: 45px;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: linear-gradient(to bottom, #0047A0, #0181CA);
+  border: #0181CA;
+}
+#btnTop:hover {
+    background: linear-gradient(to bottom, #5f666e, #7E858C);
+}
+
 /* groupe de cards */ 
 .infocard {
     padding-bottom: 1.5em;
