@@ -35,6 +35,27 @@
     color: white;
 }
 
+/* bouton remonter */
+#btnTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  display: none; /* caché par défaut */
+  width: 45px;
+  height: 45px;
+  font-size: 1.25rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: linear-gradient(to bottom, #0047A0, #0181CA);
+  border: #0181CA;
+}
+#btnTop:hover {
+    background: linear-gradient(to bottom, #5f666e, #7E858C);
+}
+
+/* icon dans les cards */
 #icon {
   font-size: 3rem; /* ajuste la taille comme tu veux : 2rem, 4rem, etc. */
   display: block;
